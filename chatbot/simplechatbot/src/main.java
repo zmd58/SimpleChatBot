@@ -7,7 +7,7 @@ public class main {
     }
 
     private static void run() {
-        // create a chat
+        // create a chat frame
         ChatUI chatBox = new ChatFrame();
         chatBox.createFrame();
     }
