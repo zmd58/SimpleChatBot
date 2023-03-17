@@ -1,4 +1,5 @@
 import UI.ChatFrame;
+import UI.ChatUI;
 
 public class main {
     public static void main(String[] args) {
@@ -6,7 +7,7 @@ public class main {
     }
 
     private static void run() {
-        ChatFrame chatBox = new ChatFrame();
+        ChatUI chatBox = new ChatFrame();
         chatBox.createFrame();
     }
 }
